@@ -1,0 +1,6 @@
+#!/usr/bin/env python3
+"""Compatibility launcher for workstation images."""
+from studio_operations.cli import main
+
+raise SystemExit(main())
+
